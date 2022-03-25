@@ -10,6 +10,7 @@
   --color: var(--dark-grey-3);
 }
 
+
 .root {
   background: var(--background);
   color: var(--color);

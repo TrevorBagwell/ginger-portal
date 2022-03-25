@@ -1,0 +1,2 @@
+src/artifacts/*.ts
+src/utils/sdk.wasm/*

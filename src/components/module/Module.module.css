@@ -5,12 +5,25 @@
 }
 
 .root[data-theme='light'] {
-  --background: var(--white);
+  --background: var(--white-2);
   --border: var(--light-grey-10);
   --color: var(--dark-grey-3);
 }
-
+  
 .root {
+  display: flex;
+  flex-direction: column;  
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
   background: var(--background);
   color: var(--color);
+  align-items: center;
+}
+
+.spacer {
+  width: 100%;
+  height: var(--header-height);
 }

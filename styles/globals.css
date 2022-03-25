@@ -1,9 +1,6 @@
 html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+div {
+  font-family: 'Trebuchet MS', sans-serif;
 }
 
 a {
@@ -13,4 +10,68 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+:root {
+  --black-1: #000008;
+
+  --dark-grey-1: #070812;
+  --dark-grey-2: #11121C;
+  --dark-grey-3: #1B1C26;
+  --dark-grey-4: #252630;
+  --dark-grey-5: #282935;
+  --dark-grey-6: #383945;
+  --dark-grey-7: #42434F;
+  --dark-grey-8: #4C4D59;
+  --dark-grey-9: #565763;
+  --dark-grey-10: #60616D;
+  --dark-grey-11: #6A6B77;
+  --dark-grey-12: #747581;
+  --light-grey-1: #ECEDF9;
+  --light-grey-2: #E2E3EF;
+  --light-grey-3: #D8D9E5;
+  --light-grey-4: #CECFDB;
+  --light-grey-5: #C4C5D1;
+  --light-grey-6: #BABBC7;
+  --light-grey-7: #B0B1BD;
+  --light-grey-8: #A6A7B3;
+  --light-grey-9: #9C9DA9;
+  --light-grey-10: #92939F;
+  --light-grey-11: #888995;
+  --light-grey-12: #7E7F8B;
+
+  --white: #FFFFFF;
+  --white-1: #F6F7FF;
+  --white-2: #F2F2FA;
+
+  /*--gradient-1: linear-gradient(121.75deg, rgba(108, 229, 255, 1) 11.78%, rgba(8, 90, 246, 1) 88.23%);*/
+  --gradient-1: linear-gradient(121.75deg, #0094FF 11.78%, #085AF6 88.23%);
+  --gradient-common: linear-gradient(135deg, #9CA3AF 0%, #656C78 100%);
+  --gradient-uncommon: linear-gradient(47.22deg, #60A5FA 5.72%, #77E1EE 94.27%);
+  --gradient-rare: linear-gradient(135deg, #A1FF8B 0%, #34D399 96.83%);
+  --gradient-epic: linear-gradient(135deg, #B491FF 2.88%, #3300FF 98.14%);
+  --gradient-legendary: linear-gradient(135deg, #FFB800 2.88%, #FFD66C 69.36%, #966C00 97.64%);
+  --gradient-exotic: linear-gradient(17.4deg, #766ACD 1.27%, #818BD9 30.2%, #A1EFFD 49.15%, #C5BCFC 69.09%, #DF97FB 97.02%);
+  --gradient-earthy-vibes: linear-gradient(135deg, #A1FF8B 0%, #3F93FF 96.83%);
+  --soldient: linear-gradient(48.01deg, #9945FF 0.56%, #7962E7 20.34%, #00D18C 99.44%);
+
+
+  --tuna: #323340;
+  --steel: #1B1C26;
+  --utility-red: #E81212;
+  --utility-light-red: #E45241;
+  --utility-green: #00D18C;
+  --utility-primary-blue: #085AF6;
+  --primary-blue: #085AF6;
+  --utility-light-blue: #5791FF;
+  --utility-dark-green: #219653;
+  --bsv-orange: #DCA52A;
+
+  --background: var(--dark-grey-4);
+
+  --glass-dark: linear-gradient(142.41deg, #4C4D59 -20.4%, rgba(50, 51, 64, 0.75) 120.83%);
+  --glass-light: linear-gradient(142.41deg, #CECFDB -20.4%, rgba(216, 217, 229, 0.5) 120.83%);
+
+  --header-height: 65px;
+
 }

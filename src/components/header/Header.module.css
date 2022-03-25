@@ -1,0 +1,28 @@
+.root[data-theme='dark'] {
+    --background: var(--dark-grey-2);
+    --border: var(--dark-grey-4);
+    --color: var(--light-grey-1);
+}
+
+.root[data-theme='light'] {
+    --background: var(--white);
+    --border: var(--light-grey-10);
+    --color: var(--dark-grey-3);
+}
+
+.root {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-left: 50px;
+    width: 100%;
+    height: var(--header-height);
+    background: var(--background);
+    color: var(--color);
+    border-bottom: 1px solid var(--border);
+    z-index: 1;
+}
