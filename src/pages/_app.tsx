@@ -3,16 +3,8 @@ import '../../styles/globals.css'
 import type { AppProps } from 'next/app'
 import Header from '../components/header'
 import Head from 'next/head'
-import storage from 'utils/storage'
-import { THEME } from 'constants/storage-keys'
 
 function MyApp({ Component, pageProps }: AppProps) {
-	React.useEffect(() => {
-		const theme = storage.get(THEME)
-		if (!theme) {
-			storage.set(THEME, 'light')
-		}
-	}, [])
 
 	return (
 		<>

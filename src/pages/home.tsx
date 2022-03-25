@@ -4,6 +4,8 @@ import styles from '../../styles/Home.module.css'
 import { useRouter } from 'next/router'
 import Module from 'components/module'
 
+// Put something cool here, idk what
+
 const Home: FC = () : ReactElement => {
   const router = useRouter()
   const path = React.useMemo(()=>router.pathname.slice(1),[router.pathname])
