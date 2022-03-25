@@ -1,5 +1,5 @@
 .root[data-theme='dark'] {
-  --background: var(--dark-grey-2);
+  --background: var(--steel);
   --border: var(--dark-grey-4);
   --color: var(--light-grey-1);
 }

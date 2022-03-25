@@ -1,0 +1,1 @@
+export const mobile_breakpoint = 736;

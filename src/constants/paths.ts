@@ -1,1 +1,1 @@
-export const paths = ['home','projects','resume']
+export const paths = ['home','projects','resume', 'about']
